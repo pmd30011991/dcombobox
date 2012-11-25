@@ -1,0 +1,111 @@
+
+.ui-dcombobox-input {
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	 border-top-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:whitesmoke;
+	border:1px solid #ccc;
+	padding: 0.3em;
+	position: relative;
+}
+.ui-dcombobox-search-result {
+	display:auto;
+	visibility: visible;
+}
+.ui-dcombobox-arrow:hover {
+	background: #ddd url('../img/arrow.png') center no-repeat;
+}
+.ui-dcombobox-arrow {
+	cursor: pointer;
+	background: whitesmoke url('../img/arrow.png') center no-repeat;
+	display: inline-block;
+	position: absolute;
+	padding: 0.3em;
+	width: 1.5em;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+.ui-dcombobox-search-no-result {
+	display:none;
+}
+.ui-dcombobox-item:hover {
+	background: #eee;
+	border: 1px solid #999;
+}
+.ui-dcombobox-item {
+	cursor:pointer;
+	padding:0.3em;
+	min-width: 120px;
+	background: whiteSmoke;
+	border: 1px solid #aaa;
+	display: inline-block;
+}
+div.ui-dcombobox-item-wapper {
+	margin:1px;
+}
+.ui-dcombobox-list ul {
+		padding: 0 0 0 5px;
+		margin: 0;
+		overflow:hidden;
+		width: 100%;
+}
+.ui-dcombobox-list{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	z-index:999999;
+}
+.ui-dcombobox-bullet img {
+	width:16px;
+	height:16px;
+	padding:0.3em 5px 0.3em 5px;
+	}
+
+.ui-dcombobox-bullet:hover{
+	background: rgb(221, 221, 221);
+}
+.ui-dcombobox-bullet {
+
+float: left;
+height: auto;
+cursor: pointer;
+background: whiteSmoke;
+border-top: 1px solid rgb(170, 170, 170);
+border-left: 1px solid rgb(170, 170, 170);
+border-bottom: 1px solid rgb(170, 170, 170);
+}
+.ui-dcombobox-list li{
+	
+	clear:both;
+	list-style: none;
+		width: auto;
+	padding: 0 0 0 20px;
+}
+.ui-dcombobox-border-right {
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.ui-dcombobox-border-left {
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	 border-top-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.ui-dcombobox-border-all{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+li.ui-dcombobox-empty-item {
+	margin:2px;
+}
