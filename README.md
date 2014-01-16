@@ -7,4 +7,4 @@ How to Use:
 
   $(selecttor).dcombobox({});
 
-More detail : http://www.portfolucius.com/ 
+More detail : http://www.fantalty.com/ 
